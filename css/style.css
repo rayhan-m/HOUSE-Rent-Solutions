@@ -1,0 +1,212 @@
+.header_section{
+  height: 70px;
+  width: 100%;
+  background-color:   #0a2269    ;
+}
+.left a{text-decoration:none;color:#FFFFFF;}
+.main_content_section{
+  background-color: #FFFFFF;
+}
+.banner_text{
+	margin-top: 30px;
+}
+.date-box {
+  background-color:  #0f5952 ;
+  text-align: center;
+  font-size: 22px;
+  margin-left: -15px;
+}
+.profile_pic {
+  height: 190px;
+  width: 180px;
+  padding: 4px;
+  margin: 8px 40px;
+  box-shadow: 0px 1px 4px 2px #6b80bc;
+}
+.file {
+  font-size: 20px;
+  border: 1px solid  #6b80bc ;
+}
+.single_notice {
+  margin-top: 24px;
+}
+.banner_section{background:#24722D;min-height:175px;}
+.banner_section h5{margin-top:130px;font-size:17px;margin-left:55px;font-weight:bold;}
+.banner_section1{background:#24722D;min-height:80px;}
+.banner_section1 h3{text-align:center; font-size:22px; margin-top:30px;}
+
+.techeralignment{width:250px;}
+.content_list{
+  min-height:450px;
+  
+}
+.section_1{padding:30px;}
+.section_2{padding:15px;}
+.section_3{padding:15px;}
+.section_4{padding:1px;}
+
+.button1{width:90px;height:90px;background:#24722D;border:10px solid gray;border-radius:50px;}
+.button1:hover{border:10px solid #115013;}
+.button1 a span{text-decoration:none;color:#FFFFFF;}
+.button1 a span:hover{font-size:30px;}
+.button1 span{padding:3px;margin-top:16px;font-size:25px;margin-left:17px;}
+
+.single_content{
+  height: 70px;
+  background-color: #fff;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width:81%;
+  margin-top:20px;
+}
+.head_img{
+  height:120px;
+  
+}
+img{
+  height: 120px;
+  width: 100%
+}
+.content_text{
+ 
+  background:#540c64 ;
+  height: 125px;
+  text-align: center;
+}
+.content_text span{padding:2px;color:#FFFFFF;padding-left:3px; font-size: 18px;}
+.content_text a p{text-decoration:none;padding:2px;font-weight:bold;margin-left:4px;color:#FFFFFF;}
+.content_text a p:hover{text-decoration:underline;}
+
+/* Style the links inside the sidenav */
+
+#mySidenav a {
+  position: absolute;
+  left: -20px;
+  transition: 0.3s;
+  padding: 4px;
+  width: 190px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  height: 40px;
+  border: 4px solid #6b80bc;
+  text-align: center;
+  font-weight: bold;
+  background: #0a2269;
+}
+
+#mySidenav a:hover {
+    left:0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#dashboard {
+    top: 20px;
+    background-color: #0D9C54;
+}
+
+#home {
+    top: 70px;
+    background-color: #0D9C54; /* Blue */
+}
+
+#profile {
+    top: 120px;
+    background-color: #0D9C54; /* Red */
+}
+#book_req {
+    top: 120px;
+    background-color: #0D9C54 /* Light Black */
+}
+#notice {
+    top: 170px;
+    background-color: #0D9C54 /* Light Black */
+}
+#reg-form {
+    top: 220px;
+    background-color: #0D9C54 /* Light Black */
+}
+#payment {
+    top: 270px;
+    background-color: #0D9C54 /* Light Black */
+}
+#leave_notice {
+    top: 320px;
+    background-color: #0D9C54 /* Light Black */
+}
+#feedback {
+    top: 370px;
+    background-color: #0D9C54 /* Light Black */
+}
+
+.right {
+  float: right;
+  color: #fff;
+  font-size: 22px;
+  margin: 10px;
+  padding: 9px;
+}
+.right span{}
+.design{
+    border-radius: 50%;
+    float: right;
+    height: 7.5rem;
+    position: relative;
+    margin-top: -4.95rem;
+    width: 7.5rem;
+}
+.design1 {
+  border-radius: 50%;
+  float: right;
+  height: 4.5rem;
+  position: relative;
+  margin-top: 12px;
+  width: 4.5rem;
+  margin-right: -225px;
+ 
+}
+.design2 {
+  border-radius: 50%;
+  float: right;
+  height: 10.5rem;
+  position: relative;
+  margin-top: 12px;
+  width: 10.5rem;
+  margin-right: -315px;
+}
+hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 2px solid #eee;
+}
+.content_footer {
+  float: right;
+  font-size: 18px;
+  padding-right: 10px;
+  margin: 10px 6px;
+}
+.content_footer1 {
+  float: left;
+  font-size: 18px;
+  padding-right: 10px;
+  margin: 10px 6px;
+  color: #000;
+}
+.fas.fa-address-card {
+  cursor: pointer;
+  color: gray;
+}
+.fas.fa-address-card:hover {
+  color: black;
+}
+
+.fas.fa-folder-plus {
+  cursor: pointer;
+  color: gray;
+  margin-left: 5px;
+}
+.fas.fa-folder-plus:hover {
+  color: black;
+}
